@@ -3,44 +3,109 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Cosmo Click</title>
-  <meta name="description" content="cosmoclick.eth">
-  <meta name="author" content="Cosmo Click">
-  <link href="http://fonts.cdnfonts.com/css/tuffy" rel="stylesheet">
+  <title>autographs.crypto</title>
+  <meta name="description" content="autographs.crypto">
+  <meta name="author" content="autographs.crypto">
+
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet"  href="/main.css">
 
 
     <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js">
     </script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <script src="index.js"></script>
 
 
 
   <meta name="twitter:card" content="player" />
-	<meta name="twitter:site" content="@playCosmoClick" />
-	<meta name="twitter:title" content="Cosmo Click The Game" />
-	<meta name="twitter:description" content="Cryptonative Clicker Game" />
+	<meta name="twitter:site" content="@Nahiiko" />
+	<meta name="twitter:title" content="TwitterPlaysNFT by @Nahiiko" />
+	<meta name="twitter:description" content="Decentralized Daily Cooperative Twitter-based NFT minting" />
 	<meta name="twitter:image" content="https://nahiko.eth.link/" />
+<<<<<<< HEAD
   <meta name="twitter:creator" content="@playCosmoClick"><!--
 	<meta name="twitter:player" content="https://twitter.com/playCosmoClick" />
+=======
+  <meta name="twitter:creator" content="@Nahiiko">
+	<meta name="twitter:player" content="https://nahiiko.github.io/" />
+>>>>>>> parent of 4f61409 (f)
 	<meta name="twitter:player:width" content="800" />
 	<meta name="twitter:player:height" content="800" />
 
 </head>
 
 <body>
+  <div id=logo>TwitterPlaysNFT</div>
 
-  <div id=doggo></div>
-  <div id=km>99.834 million</div>
-  <div id=meters>meters</div>
+    <div id=container>
+        <div id=bodyTxt class="bodyTxt blink_me">Draw something here</div>
+        <div id=box>
 
-  <div id=cloud1></div>
-  <div id=cloud2></div>
-  <div id=cloud3></div>
+          <div hidden id="toolbar">
+            <div class="no-select undoImg toolbarButton" id="undo-button">
+              <span class="tooltipText">undo <span class="hotkeyText">(Z)</span></span>
+            </div>
+    
+            <div class="no-select redoImg toolbarButton" id="redo-button">
+              <span class="tooltipText">redo <span class="hotkeyText">(X)</span></span>
+            </div>
+    
+            <div class="no-select pencilImg toolbarButton" id="pencil-button">
+              <span class="tooltipText"></span>
+            </div>
+    
+            <div class="no-select fillImg toolbarButton" id="fill-button">
+              <span class="tooltipText"></span>
+            </div>
+            
+            <div class="no-select eraserImg toolbarButton" id="eraser-button">
+              <span class="tooltipText"></span>
+            </div>
+    
+            <div class="no-select selectionImg toolbarButton" id="selection-button">
+              <span class="tooltipText"></span>
+            </div>
+    
+            <div class="no-select colorpickerImg toolbarButton" id="colorpicker-button">
+              <span class="tooltipText"></span>
+            </div>
+    
+            <div class="no-select gridImg toolbarButton" id="grid-button">
+              <span class="tooltipText">grid <span class="hotkeyText">(G)</span></span>
+            </div>
+    
+            <div class="no-select saveImg toolbarButton" id="save-button">
+              <span class="tooltipText">save</span>
+            </div>
+    
+            <div hidden id="popup-message" class="fadeOutAnimation"></div>
+    
+            <div hidden id="active-color-preview"></div>
+    
+            <label hidden id="active-color-label"></label>
+          </div>
+    
+          <div id="canvas-div"></div>
+          <div hidden id="palette-div"></div>
 
 
+
+
+
+          <button class="button" onclick=startSign()>mint</button>
+        </div>
+       
+    </div>
+    
+    <div id=madeby>made by nahiko with love.</div>
     
 </body>
+<script type="text/javascript" src="js/tools.js"></script>
+<script type="text/javascript" src="js/palette.js"></script>
+<script type="text/javascript" src="js/historyStates.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </html>
