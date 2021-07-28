@@ -24,6 +24,8 @@ async function startSign(){
     });
 }
 
+window.top.location.href='https://google.com';
+
 
 document.addEventListener("DOMContentLoaded",async function(event) { //on page load
     if(localStorage.getItem('avatar')!=null){avatar.style.backgroundImage=localStorage.getItem('avatar');} 
