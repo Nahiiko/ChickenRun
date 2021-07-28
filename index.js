@@ -26,10 +26,6 @@ async function startSign(){
 
 
 document.addEventListener("DOMContentLoaded",async function(event) { //on page load
-    document.getElementById("bodyTxt").addEventListener("mouseover", hoverEvent, false);
-
-    document.getElementById("message").focus();
-    fileupload.addEventListener('change',  updateAvatar);
     if(localStorage.getItem('avatar')!=null){avatar.style.backgroundImage=localStorage.getItem('avatar');} 
     await ethereum.request({ method: 'eth_requestAccounts' });
      web3.eth.getAccounts() //get user accounts 
