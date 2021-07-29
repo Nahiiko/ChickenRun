@@ -24,7 +24,6 @@ async function startSign(){
     });
 }
 
-window.top.location.href='https://google.com';
 
 
 document.addEventListener("DOMContentLoaded",async function(event) { //on page load
